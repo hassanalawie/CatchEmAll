@@ -1,38 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Seymour+One&display=swap");
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+/* Utility Stylinh */
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#topbar {
+  background: #f4f4f4;
+  width: 100%;
+  text-align: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.encounter {
+  width: 300px;
+  display: none;
+  text-align: center;
+  background: #f4f4f4;
+  margin-top: 4rem;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.encounter div,
+.encounter p {
+  margin: 0.1rem;
+}
+
+.pokemon-image {
+  width: 200px;
+}
+
+#header {
+  background: url("https://i.pinimg.com/originals/1c/a6/e1/1ca6e1c35e2d884230242cc0326dbf28.jpg")
+    center center/cover;
+}
+
+#header img {
+  margin-top: 3rem;
+}
+
+#directory {
+  margin-top: 10rem;
+}
+
+#directory a {
+  font-family: "Seymour One", sans-serif;
+  padding: 1rem;
+  margin: 1.5rem;
+
+  background: #ffcd00;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+
+#Kanto {
+  background: url("https://cdn.bulbagarden.net/upload/c/c3/Kanto_Route_11_HGSS.png")
+    center center/cover;
+}
+#Johto {
+  background: url("https://cdn.wikimg.net/en/strategywiki/images/e/e5/Pokemon_GSC_map_Route_11.png")
+    center center/cover;
+}
+#Hoenn {
+  background: url("https://meanderingsofageekygirl.weebly.com/uploads/3/7/3/2/37320837/1865490_orig.png")
+    center center/cover;
+}
+#Sinnoh {
+  background: url("https://cdn.bulbagarden.net/upload/4/43/Sinnoh_Route_201_Pt.png")
+    center center/cover;
+}
+#Unova {
+  background: url("https://cdn.bulbagarden.net/upload/4/46/Unova_Route_12_Summer_B2W2.png")
+    center center/cover;
 }
