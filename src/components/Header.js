@@ -1,9 +1,10 @@
 import React from "react";
+import Title from "./img/HEADERTITLE.jpeg";
 
 function Header() {
   return (
     <div id="header" className="App">
-      <img src="https://fontmeme.com/temporary/565bb77d8c973999a95831366085791e.png" />
+      <img src={Title} />
       <div id="directory">
         <a href="#Kanto">Kanto</a>
         <a href="#Johto">Johto</a>
